@@ -144,6 +144,9 @@ body{
 }
 
 @media (max-width: 1024px) and (min-width: 800px){
+    .main-content{
+        min-height: 80vh;
+    }
     .main-content .features .laptop-img{
         margin-top: 15vh;
         width: auto;
@@ -160,10 +163,11 @@ body{
     }
 }
 
-@media (max-width: 800px) and (orientation: portrait) {
+@media (max-width: 800px) {
     .main-content{
         align-items: center;
-        height: 80vh;
+        min-height: 80vh;
+        height: auto;
         padding-bottom: 5vh;
     }
     .hero-title{
