@@ -52,7 +52,8 @@ body{
 .main-content{
     background-color: #0056ff;
     width: 100vw;
-    height: 80vh;
+    min-height: 80vh;
+    height: auto;
     color: #fff;
     display: flex;
     flex-direction: column;
